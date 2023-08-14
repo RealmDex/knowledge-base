@@ -8,8 +8,11 @@ title = "RealmDex Knowledge Base"
 [output.html]
 mathjax-support = true
 git-repository-url = "https://github.com/RealmDex/knowledge-base/main"
-edit-url-template = "https://github.com/RealmDex/knowledge-base/main/src/${path}"
+edit-url-template = "https://github.com/RealmDex/knowledge-base/main/{path}"
 
+[output.html.playground]
+editable = true
+line-numbers = true
 
 [output.html.search]
 limit-results = 20
