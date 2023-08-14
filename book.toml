@@ -1,6 +1,21 @@
 [book]
-authors = ["KrakenMare"]
+authors = ["KrakenMare, "RealmDex Community"]
 language = "en"
 multilingual = false
 src = "src"
 title = "RealmDex Knowledge Base"
+
+[output.html]
+mathjax-support = true
+git-repository-url = "https://github.com/RealmDex/knowledge-base/main"
+edit-url-template = "https://github.com/rust-lang/mdBook/edit/main/src/{path}"
+
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
