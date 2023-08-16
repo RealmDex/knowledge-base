@@ -3,7 +3,7 @@ authors = ["RealmDex Community"]
 language = "en"
 multilingual = false
 src = "src"
-title = "RealmDex Knowledge Base"
+title = "RealmDex"
 
 [output.html]
 mathjax-support = true
@@ -18,10 +18,6 @@ cname = "docs.realmdex.com"
 editable = true
 line-numbers = true
 
-[output.html.redirect]
-"/online-servers/valor.html" = "https://valorserver.com"
-"/online-servers/Domain-of-Magicia.html" = "https://discord.gg"
-
 [output.html.search]
 limit-results = 20
 use-boolean-and = true
@@ -30,3 +26,5 @@ boost-hierarchy = 2
 boost-paragraph = 1
 expand = true
 heading-split-level = 2
+
+[preprocessor.external-links]
