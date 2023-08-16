@@ -8,10 +8,11 @@ title = "RealmDex Knowledge Base"
 [output.html]
 mathjax-support = true
 git-repository-url = "https://github.com/RealmDex/knowledge-base"
-edit-url-template = "https://github.com/RealmDex/knowledge-base/{path}"
+edit-url-template = "https://github.com/RealmDex/knowledge-base/tree/main/{path}"
 default-theme = "dark"
 preferred-dark-theme = "navy"
 input-404 = "404.md"
+cname = "docs.realmdex.com"
 
 [output.html.playground]
 editable = true
