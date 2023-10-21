@@ -1,9 +1,10 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+- [Table Of Contents](./base.md)
 
 
 - [Online Servers](./servers/README.md)
+- [Tutorials](./tutorials/README.md)
 - [Misc](./#)
     - [Contributors](./misc/contributors.md)
     - [Other Resources](./misc/resources.md)
